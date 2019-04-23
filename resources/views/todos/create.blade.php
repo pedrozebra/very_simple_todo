@@ -29,9 +29,7 @@
                                 
                             </div>
                             <div class="form-group">
-                                    <textarea name="description" id="" placeholder="Description" cols="5" rows="10" class="form-control">
-                                            {{ old('description') }}
-                                    </textarea>
+                                    <textarea name="description" id="" placeholder="Description" cols="5" rows="10" class="form-control">{{ old('description') }}</textarea>
                                 </div>    
                              <div class="form-group text-center">
                                  <button type="submit" class="btn btn-success">Create Todo</button>
