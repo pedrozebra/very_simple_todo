@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 
 Route::resource('todos','TodosController');
+Route::get('todos/{todo}/complete', 'TodosController@complete')->name('todos.complete');
