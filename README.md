@@ -8,7 +8,7 @@
 
 ### Step 1
 
-#####Begin by cloning this repository to your machine, and installing all Composer dependencies.
+##### Begin by cloning this repository to your machine, and installing all Composer dependencies.
 
 ```bash
 git clone https://github.com/pedrozebra/very_simple_todo.git
@@ -45,3 +45,26 @@ Just execute this command to run the built-in web server and access the applicat
 ```bash
 php artisan serve
 ```
+
+Below example of simple CRUD Operations
+
+``` GET Index``` 
+###### http://127.0.0.1:8000/todos
+![POST](1-index.PNG "GET Index")  
+
+
+```GET Create``` 
+ ##### http://127.0.0.1:8000/todos/create
+![POST](2-create.PNG "GET Create")
+
+```GET Show``` 
+ ##### http://127.0.0.1:8000/todos/1
+![GET](3-show.PNG "GET Show")
+
+```GET Edit``` 
+ ##### http://127.0.0.1:8000/todos/1/edit
+![GET](4-edit.PNG "GET Edit")
+
+```After PUT Update With session flash message``` 
+![GET](5-updated.PNG "PUT Update")
+
